@@ -8,7 +8,7 @@
         "Bot"
     ],
     "logo": "https://heroku-blog-files.s3.amazonaws.com/posts/1473343692-python.png",
-    "repository": "https://github.com/icecrac34r/simple_retweet_bot",
+    "repository": "https://github.com/icecrac34r/facts_bot_twitter",
     "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-python.git"
@@ -28,7 +28,7 @@
            "description": "Enter your twitter api secret key from the app"
     },
         "sleep_time":{
-            "description": "Enter desired wait time between 2 consecutive tweets in secs"
+            "description": "Enter desired wait time between 2 consecutive tweets in secs eg- (3600 for 1 hour)"
     }
 
     
