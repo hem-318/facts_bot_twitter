@@ -1,0 +1,1 @@
+worker: python3 the_quote_bot.py
